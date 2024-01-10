@@ -1,0 +1,10 @@
+# ignore all configuration
+*.conf
+
+# ignore data folder
+data/
+
+# dbt folder
+target/
+dbt_packages/
+logs/
