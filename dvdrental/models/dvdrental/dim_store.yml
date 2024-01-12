@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: dim_store
+    columns:
+      - name: store_key
+        description: The surrogate key of dim_store table
+        tests:
+          - unique
+          - not_null
+      
+      - name: store_id
+        description: The natural key of store table
+        tests:
+          - unique
+          - not_null

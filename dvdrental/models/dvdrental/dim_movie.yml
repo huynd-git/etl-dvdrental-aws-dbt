@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: dim_movie
+    columns:
+      - name: movie_key
+        description: The surrogate key of dim_movie table
+        tests:
+          - unique
+          - not_null
+        
+      - name: film_id
+        description: The natural key of film table
+        tests:
+          - unique
+          - not_null
+
+        

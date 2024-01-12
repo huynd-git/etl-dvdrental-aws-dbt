@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: dim_customer
+    columns:
+      - name: customer_key
+        description: The surrogate key of the dim_customer table
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        description: The natural key of the customer table
+        tests:
+          - not_null
+          - unique
+
+      - name: first_name
+        description: Customer's first name
+
+      - name: last_name
+        description: Customer's last name

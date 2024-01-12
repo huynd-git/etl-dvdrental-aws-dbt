@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: fct_sales
+    columns:
+      - name: sales_key
+        description: The surrogate key for fct_sales table
+        tests:
+          - unique
+          - not_null
+        
+      - name: date_key
+        description: The foreign key of date
+        tests:
+          - not_null
+      
+      - name: customer_key
+        description: The foreign key of customer
+        tests:
+          - not_null
+      
+      - name: movie_key
+        description: The foreign key of movie
+        tests:
+          - not_null
+
+      - name: store_key
+        description: The foreign key of store
+        tests:
+          - not_null
