@@ -1,3 +1,4 @@
+-- create dim_movie table
 with stg_category as (
     select 
         fc.film_id,
