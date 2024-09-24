@@ -1,3 +1,4 @@
+-- create dim_date table
 with stg_date as (
     select distinct date(payment_date) as date from raw.dvdrental.payment
 )
