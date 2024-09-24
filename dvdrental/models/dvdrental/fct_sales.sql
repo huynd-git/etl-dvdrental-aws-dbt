@@ -1,3 +1,4 @@
+-- create fct_sales table
 with stg_payment as (
     select 
         payment_id,
