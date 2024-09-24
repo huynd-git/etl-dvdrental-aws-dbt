@@ -3,10 +3,18 @@
 ## Overview
 This project demonstrates a robust ETL pipeline, replicating a typical workflow for extracting, transforming, and loading data from a transactional database (PostgreSQL) to a cloud data warehouse (Snowflake) and applying star schema before serving to the end users using DBT. This project empowers business analysts to derive insights and make data-driven decisions efficiently.
 
+## Dataset
+This project used the DVD Rental dataset. For more information please refer to this [link](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/).
+
+- DVD Rental ER Model:
+<img title='dvd-rental-database-diagram' src='./img/dvd-rental-database-diagram.png'>
+
 ## Project objectives
 - Copy data from a relational database (PostgreSQL) to a data lake (AWS s3).
 - Load the data from the data lake (S3) into a cloud data platform (SnowFlake).
 - Use DBT to apply dimensional data modeling and data quality checking to the data.
+- Dimensional data model:
+<img title='Dimensional data model' src='./img/dvdrental1.png'>
 
 ## Prerequisites
 - PostgreSQL database up and running
