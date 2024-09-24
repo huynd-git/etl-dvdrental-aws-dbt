@@ -18,7 +18,7 @@ This project used the DVD Rental dataset. For more information please refer to t
 
 ## Prerequisites
 - PostgreSQL database up and running
-- AWS s3 API key
+- AWS s3 API key, secret key, and bucket name
 - Snowflake account and necessary credentials
 - Python installed (with required libraries: psycopg2, boto3, snowflake-connector-python)
 - DBT installed and configured
