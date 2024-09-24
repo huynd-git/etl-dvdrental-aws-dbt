@@ -48,6 +48,7 @@ for i in range(len(table_names)):
 
     cursor.execute(query)
 
+# close
 cursor.close()
 print("Completed!")
 
