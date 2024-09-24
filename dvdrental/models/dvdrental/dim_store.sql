@@ -1,3 +1,4 @@
+-- create dim_store table
 with addressInfo as (
     select * from {{ ref('stg_address') }}
 ),
