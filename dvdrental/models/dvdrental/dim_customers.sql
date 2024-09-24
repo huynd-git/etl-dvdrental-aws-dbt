@@ -1,3 +1,4 @@
+-- create dim_customer table
 with stg_customer as (
     select * from raw.dvdrental.customer
 ),
