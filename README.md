@@ -1,5 +1,6 @@
 # ETL-dvdrental-snowflake-dbt
 <img title='workflow' src='./img/dvdrental-workflow.png'>
+
 ## Overview
 This project demonstrates a robust ETL pipeline, replicating a typical workflow for extracting, transforming, and loading data from a transactional database (PostgreSQL) to a cloud data warehouse (Snowflake) and applying star schema before serving to the end users using DBT. This project empowers business analysts to derive insights and make data-driven decisions efficiently.
 
